@@ -1,0 +1,308 @@
+# Created at 2023-07-31T18:39:45.975
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2023-07-31T18:39:46.430
+Unexpected IOException with stream: HTTP/1.1 401 Unauthorized
+Date: Mon, 31 Jul 2023 13:09:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 282f60de-2127-4e51-a118-c9d43fb9eef8
+x-runtime: 0.005426
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9VjtP8w8ZftuHeAgOMnaaeo3TP4DYIwHLfR%2Bx9tnRyV8NsumYHhMFah1HkvWFA%2FnBdSakiPwmJdzrkAALxQxShA4B%2Bu4gSwRFyqSB1tRE96e2WlFDPp91%2Ft%2BVzPNO0I%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ef613e2183a3a44-FRA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Authentication failed"
+}
+
+
+# Created at 2023-07-31T18:39:46.431
+Unexpected IOException: 8,1,com.qa.api.tests.GetUserTest,deleteUserTest(com.qa.api.tests.GetUserTest),null,1 expectation failed.\000AExpected status code <201> but was <401>.\000A,null,1 expectation failed.\000AExpected status code <201> but was <401>.\000A,GetUserTest.deleteUserTest:143 1 expectation failed.\000AExpected status code <201> but was <401>.\000A,java.lang.AssertionError: \000A1 expectation failed.\000AExpected status code <201> but was <401>.\000A\000A\0009at com.qa.api.tests.GetUserTest.deleteUserTest(GetUserTest.java:143)\000A
+
+
+# Created at 2023-07-31T18:39:46.433
+Unexpected IOException: 5,1,com.qa.api.tests.GetUserTest,getAllUsersTest(com.qa.api.tests.GetUserTest),com.qa.api.tests.GetUserTest,null,null
+
+
+# Created at 2023-07-31T18:39:46.434
+Unexpected IOException with stream: bearer token is: e4b8e1f593dc4a731a153c5ec8cc9b8bbb583ae964ce650a741113091b4e2ac6
+
+
+# Created at 2023-07-31T18:39:46.439
+Unexpected IOException with stream: Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Naveen",
+    "email": "api1690808985539@api.com",
+    "gender": "male",
+    "status": "active"
+}
+
+
+# Created at 2023-07-31T18:39:47.367
+Unexpected IOException with stream: HTTP/1.1 200 OK
+Date: Mon, 31 Jul 2023 13:09:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-pagination-limit: 10
+x-pagination-page: 1
+x-pagination-pages: 0
+x-pagination-total: 0
+x-permitted-cross-domain-policies: none
+x-request-id: d3d299f9-bcef-43c6-98fc-1e8572ba4bc4
+x-runtime: 0.064314
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zGNF9Im565Ly4kdgxhBOJza5kde8f9CQnUdkuSdZ%2Fj3BiY8lwLafaeZ5bVyXYpjP5421VjfhNTjewHkvOz5KVtTle4jJto%2Fn2ij2Wi2%2BPTpnhvCXadFLaOoc7%2Fsf%2F5U%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ef613e7a8d3bb74-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    
+]
+
+
+# Created at 2023-07-31T18:39:47.368
+Unexpected IOException: 6,1,com.qa.api.tests.GetUserTest,getAllUsersTest(com.qa.api.tests.GetUserTest),null,null,null
+
+
+# Created at 2023-07-31T18:39:47.369
+Unexpected IOException: 5,1,com.qa.api.tests.GetUserTest,getUsersTest(com.qa.api.tests.GetUserTest),com.qa.api.tests.GetUserTest,null,null
+
+
+# Created at 2023-07-31T18:39:47.372
+Unexpected IOException with stream: bearer token is: e4b8e1f593dc4a731a153c5ec8cc9b8bbb583ae964ce650a741113091b4e2ac6
+
+
+# Created at 2023-07-31T18:39:47.376
+Unexpected IOException with stream: Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/4040713
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Naveen",
+    "email": "api1690808985539@api.com",
+    "gender": "male",
+    "status": "active"
+}
+
+
+# Created at 2023-07-31T18:39:48.215
+Unexpected IOException with stream: HTTP/1.1 404 Not Found
+Date: Mon, 31 Jul 2023 13:09:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 55f9efca-0fd2-4d0d-bd75-58e870fbe51d
+x-runtime: 0.009729
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e0P%2FBYYd1jPDRV%2FpGzKglQFX4X8ciEe5Nf0NdzfNxwgSuzNOPd1rUFenA7M5UxEhRfIhvg597UADcpwP7zZMWWY%2BW%2BtHPOvoq2PatPL7hZ691ehZxO1XhILa0jquEXg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ef613ed6c4e37f6-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+
+
+# Created at 2023-07-31T18:39:48.216
+Unexpected IOException: 8,1,com.qa.api.tests.GetUserTest,getUsersTest(com.qa.api.tests.GetUserTest),null,1 expectation failed.\000AExpected status code <200> but was <404>.\000A,null,1 expectation failed.\000AExpected status code <200> but was <404>.\000A,GetUserTest.getUsersTest:41 1 expectation failed.\000AExpected status code <200> but was <404>.\000A,java.lang.AssertionError: \000A1 expectation failed.\000AExpected status code <200> but was <404>.\000A\000A\0009at com.qa.api.tests.GetUserTest.getUsersTest(GetUserTest.java:41)\000A
+
+
+# Created at 2023-07-31T18:39:48.219
+Unexpected IOException: 5,1,com.qa.api.tests.GetUserTest,getUsersWithQueryTest(com.qa.api.tests.GetUserTest),com.qa.api.tests.GetUserTest,null,null
+
+
+# Created at 2023-07-31T18:39:48.220
+Unexpected IOException with stream: bearer token is: e4b8e1f593dc4a731a153c5ec8cc9b8bbb583ae964ce650a741113091b4e2ac6
+
+
+# Created at 2023-07-31T18:39:48.233
+Unexpected IOException with stream: Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/?name=naveen&status=active
+Proxy:			<none>
+Request params:	<none>
+Query params:	name=naveen
+				status=active
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Naveen",
+    "email": "api1690808985539@api.com",
+    "gender": "male",
+    "status": "active"
+}
+
+
+# Created at 2023-07-31T18:39:49.259
+Unexpected IOException with stream: HTTP/1.1 200 OK
+Date: Mon, 31 Jul 2023 13:09:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"4f53cda18c2baa0c0354bb5f9a3ecbe5"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-pagination-limit: 10
+x-pagination-page: 1
+x-pagination-pages: 0
+x-pagination-total: 0
+x-permitted-cross-domain-policies: none
+x-request-id: 91a34708-cf09-4962-bb29-7f6923a9f76a
+x-runtime: 0.065705
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FA40r7GFo9og%2Bq9Ad3OuAAxK%2BrPWtzyPvkjxKuKwavwRxMlthS7ct9Y6AfQSAo2%2BN68YTXdJlLDwTFarE%2BvU1KM99yUqudiXZiffTAA3gjfLQq%2BH7rcKNoV34kU5Pr0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ef613f31ebdbbeb-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+[
+    
+]
+
+
+# Created at 2023-07-31T18:39:49.260
+Unexpected IOException: 6,1,com.qa.api.tests.GetUserTest,getUsersWithQueryTest(com.qa.api.tests.GetUserTest),null,null,null
+
+
+# Created at 2023-07-31T18:39:49.262
+Unexpected IOException: 5,1,com.qa.api.tests.GetUserTest,updateUserTest(com.qa.api.tests.GetUserTest),com.qa.api.tests.GetUserTest,null,null
+
+
+# Created at 2023-07-31T18:39:49.264
+Unexpected IOException with stream: bearer token is: e4b8e1f593dc4a731a153c5ec8cc9b8bbb583ae964ce650a741113091b4e2ac6
+
+
+# Created at 2023-07-31T18:39:49.269
+Unexpected IOException with stream: Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users/?name=naveen&status=active
+Proxy:			<none>
+Request params:	<none>
+Query params:	name=naveen
+				status=active
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Naveen",
+    "email": "api1690808989263@api.com",
+    "gender": "male",
+    "status": "active"
+}
+
+
+# Created at 2023-07-31T18:39:50.184
+Unexpected IOException with stream: HTTP/1.1 401 Unauthorized
+Date: Mon, 31 Jul 2023 13:09:50 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 97881887-f053-4605-b4a4-6ae56f0b946d
+x-runtime: 0.005686
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lyrRDT8VAIkI0%2BMDte7n0tQg3rqqo3ewoHlXq1WZSwG2Aea9WgFqDoVMHT%2BS0mmdFiJHfVO7aqD%2Bq3nmswtvcOSAoTuF7BHG%2BpRK7nDB0Zw9tIJrziZ8WcfrTpVitM8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ef613f948ba2bf6-FRA
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Authentication failed"
+}
+
+
+# Created at 2023-07-31T18:39:50.185
+Unexpected IOException: 8,1,com.qa.api.tests.GetUserTest,updateUserTest(com.qa.api.tests.GetUserTest),null,1 expectation failed.\000AExpected status code <201> but was <401>.\000A,null,1 expectation failed.\000AExpected status code <201> but was <401>.\000A,GetUserTest.updateUserTest:112 1 expectation failed.\000AExpected status code <201> but was <401>.\000A,java.lang.AssertionError: \000A1 expectation failed.\000AExpected status code <201> but was <401>.\000A\000A\0009at com.qa.api.tests.GetUserTest.updateUserTest(GetUserTest.java:112)\000A
+
+
+# Created at 2023-07-31T18:39:50.291
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,com.qa.api.tests.GetUserTest,null,null,null
+
+

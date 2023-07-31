@@ -1,0 +1,6 @@
+com/qa/api/restclient/RestClient.class
+com/qa/api/propconfig/Configuration.class
+com/qa/api/utils/StringUtils.class
+com/qa/api/pojo/User$UserBuilder.class
+com/qa/api/pojo/User.class
+com/qa/api/constants/APIHttpStatus.class
