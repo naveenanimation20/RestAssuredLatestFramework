@@ -7,10 +7,10 @@ import java.util.Properties;
 
 public class Configuration {
 
-	private static Properties prop;
-	private static FileInputStream ip;
+	private Properties prop;
+	private FileInputStream ip;
 
-	public static Properties initProp() {
+	public Properties initProp() {
 
 		if (prop == null) {
 			prop = new Properties();
@@ -27,12 +27,13 @@ public class Configuration {
 		return prop;
 	}
 	
-	public static String getProperty(String key) {
+	public String getProperty(String key) {
 		initProp();
         return prop.getProperty(key);
     }
 	
-	public static void setProperty(String key, String value) {
+	public void setProperty(String key, String value) {
+		System.out.println("setttt");
 		initProp();
         prop.setProperty(key, value);
         System.out.println(prop);
