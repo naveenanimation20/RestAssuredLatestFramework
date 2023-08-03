@@ -1,8 +1,11 @@
 package com.qa.api.restclient;
 
+import static io.restassured.RestAssured.given;
+
 import java.util.Map;
 import java.util.Properties;
 
+import com.qa.api.constants.APIHttpStatus;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -74,7 +77,7 @@ public class RestClient {
         return specBuilder.build();
     }
     
-    private RequestSpecification createRequestSpec(Map<String, String> headersMap, Map<String, String> queryParams, boolean includeAuth) {
+    private RequestSpecification createRequestSpec(Map<String, String> headersMap, Map<String, Object> queryParams, boolean includeAuth) {
 		specBuilder
             .setBaseUri(baseUri);
         if(includeAuth) {addAuthorizationHeader();}
@@ -147,7 +150,7 @@ public class RestClient {
     
     
     
-    public Response get(String serviceUrl, Map<String, String> queryParams, Map<String, String> headersMap, boolean includeAuth, boolean log) {
+    public Response get(String serviceUrl, Map<String, Object> queryParams, Map<String, String> headersMap, boolean includeAuth, boolean log) {
     	
     	if(log) {
         	return RestAssured.given(createRequestSpec(headersMap, queryParams, includeAuth)).log().all()
@@ -233,5 +236,26 @@ public class RestClient {
     	return RestAssured.given(createRequestSpec(includeAuth)).when().delete(serviceUrl);   
     }
     
+    
+    
+    public String getAccessToken(String serviceURL, 
+			String clientCredentials, String clientId, String clientSecret) {
+				RestAssured.baseURI = baseUri;
+				Response response = given()
+				.contentType(ContentType.URLENC)
+				.formParam("grant_type", clientCredentials)
+				.formParam("client_id", clientId)
+				.formParam("client_secret", clientSecret)
+				.when()
+				.post(serviceURL);
+				
+				response.then()
+				.assertThat()
+				    .statusCode(APIHttpStatus.OK_200.getCode());
+				
+				String accessToken = response.getBody().jsonPath().getString("access_token");
+				System.out.println("access token : " + accessToken);
+				return accessToken;
+}
 	
 }

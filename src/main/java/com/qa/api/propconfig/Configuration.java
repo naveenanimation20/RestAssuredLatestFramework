@@ -12,7 +12,7 @@ public class Configuration {
 
 	public Properties initProp() {
 
-		if (prop == null) {
+//		if (prop == null) {
 			prop = new Properties();
 			try {
 				ip = new FileInputStream("./src/test/resources/config/config.properties");
@@ -22,7 +22,7 @@ public class Configuration {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-		}
+		//}
 
 		return prop;
 	}

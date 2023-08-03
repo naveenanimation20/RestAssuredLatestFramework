@@ -33,7 +33,7 @@ public class GoRestTest extends BaseTest{
 	@Test
 	public void getUsersWithQueryTest() {
 		
-		Map<String, String> queryMap = new HashMap<String, String>();
+		Map<String, Object> queryMap = new HashMap<String, Object>();
 		queryMap.put("name", "naveen");
 		queryMap.put("status", "active");
 		restClient.get(GOREST_ENDPOINT, queryMap, null, true, true)

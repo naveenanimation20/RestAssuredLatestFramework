@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Regression Suite" duration-ms="30309" started-at="2023-08-03T12:42:18 IST" finished-at="2023-08-03T12:42:48 IST">
+    <groups>
+    </groups>
+    <test name="GoRest Test" duration-ms="23072" started-at="2023-08-03T12:42:18 IST" finished-at="2023-08-03T12:42:41 IST">
+      <class name="com.qa.api.tests.GoRestTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="setup" is-config="true" duration-ms="339" started-at="2023-08-03T12:42:18 IST" finished-at="2023-08-03T12:42:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="createUserTest" duration-ms="4022" started-at="2023-08-03T12:42:18 IST" data-provider="getUserData" finished-at="2023-08-03T12:42:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="createUserTest" duration-ms="2584" started-at="2023-08-03T12:42:22 IST" data-provider="getUserData" finished-at="2023-08-03T12:42:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="createUserTest" duration-ms="2803" started-at="2023-08-03T12:42:25 IST" data-provider="getUserData" finished-at="2023-08-03T12:42:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lisa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method status="PASS" signature="createUserWithBuiderTest()[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="createUserWithBuiderTest" duration-ms="2455" started-at="2023-08-03T12:42:28 IST" finished-at="2023-08-03T12:42:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithBuiderTest -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="deleteUserTest" duration-ms="3437" started-at="2023-08-03T12:42:30 IST" finished-at="2023-08-03T12:42:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="getAllUsersTest()[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="getAllUsersTest" duration-ms="1371" started-at="2023-08-03T12:42:34 IST" finished-at="2023-08-03T12:42:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersTest -->
+        <test-method status="PASS" signature="getUsersTest()[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="getUsersTest" duration-ms="938" started-at="2023-08-03T12:42:35 IST" finished-at="2023-08-03T12:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersTest -->
+        <test-method status="PASS" signature="getUsersWithQueryTest()[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="getUsersWithQueryTest" duration-ms="1008" started-at="2023-08-03T12:42:36 IST" finished-at="2023-08-03T12:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersWithQueryTest -->
+        <test-method status="PASS" signature="updateUserTest()[pri:0, instance:com.qa.api.tests.GoRestTest@31e5415e]" name="updateUserTest" duration-ms="3997" started-at="2023-08-03T12:42:37 IST" finished-at="2023-08-03T12:42:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- com.qa.api.tests.GoRestTest -->
+    </test> <!-- GoRest Test -->
+    <test name="Product Test" duration-ms="2042" started-at="2023-08-03T12:42:41 IST" finished-at="2023-08-03T12:42:43 IST">
+      <class name="com.qa.api.tests.ProductAPITest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.api.tests.ProductAPITest@10feca44]" name="setup" is-config="true" duration-ms="0" started-at="2023-08-03T12:42:41 IST" finished-at="2023-08-03T12:42:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://fakestoreapi.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createProduct()[pri:0, instance:com.qa.api.tests.ProductAPITest@10feca44]" name="createProduct" duration-ms="1079" started-at="2023-08-03T12:42:41 IST" finished-at="2023-08-03T12:42:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method status="PASS" signature="getProductTest()[pri:0, instance:com.qa.api.tests.ProductAPITest@10feca44]" name="getProductTest" duration-ms="957" started-at="2023-08-03T12:42:42 IST" finished-at="2023-08-03T12:42:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductTest -->
+      </class> <!-- com.qa.api.tests.ProductAPITest -->
+    </test> <!-- Product Test -->
+    <test name="Amadeus Flight Booking Test" duration-ms="4274" started-at="2023-08-03T12:42:43 IST" finished-at="2023-08-03T12:42:47 IST">
+      <class name="com.qa.api.tests.AmadeusFlightAPITest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.api.tests.AmadeusFlightAPITest@4bb33f74]" name="setup" is-config="true" duration-ms="1" started-at="2023-08-03T12:42:43 IST" finished-at="2023-08-03T12:42:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://test.api.amadeus.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.AmadeusFlightAPITest@4bb33f74]" name="setup" is-config="true" duration-ms="2053" started-at="2023-08-03T12:42:43 IST" finished-at="2023-08-03T12:42:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://test.api.amadeus.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TAnRnsU5lASXZ8mPGdwRQZMoQzhu6Gwv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VjjgfcJilNAzcSJw]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[client_credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getFlightInfoTest()[pri:0, instance:com.qa.api.tests.AmadeusFlightAPITest@4bb33f74]" name="getFlightInfoTest" duration-ms="2217" started-at="2023-08-03T12:42:45 IST" finished-at="2023-08-03T12:42:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlightInfoTest -->
+      </class> <!-- com.qa.api.tests.AmadeusFlightAPITest -->
+    </test> <!-- Amadeus Flight Booking Test -->
+    <test name="ReqRes Test" duration-ms="265" started-at="2023-08-03T12:42:47 IST" finished-at="2023-08-03T12:42:48 IST">
+      <class name="com.qa.api.tests.ReqResTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.api.tests.ReqResTest@4d5b6aac]" name="setup" is-config="true" duration-ms="1" started-at="2023-08-03T12:42:47 IST" finished-at="2023-08-03T12:42:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://reqres.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getReqResUserTest()[pri:0, instance:com.qa.api.tests.ReqResTest@4d5b6aac]" name="getReqResUserTest" duration-ms="262" started-at="2023-08-03T12:42:47 IST" finished-at="2023-08-03T12:42:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReqResUserTest -->
+      </class> <!-- com.qa.api.tests.ReqResTest -->
+    </test> <!-- ReqRes Test -->
+    <test name="Circuit Test" duration-ms="441" started-at="2023-08-03T12:42:48 IST" finished-at="2023-08-03T12:42:48 IST">
+      <class name="com.qa.api.tests.CiruitTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.api.tests.CiruitTest@28f3b248]" name="setup" is-config="true" duration-ms="1" started-at="2023-08-03T12:42:48 IST" finished-at="2023-08-03T12:42:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://ergast.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getYearCircuitTest()[pri:0, instance:com.qa.api.tests.CiruitTest@28f3b248]" name="getYearCircuitTest" duration-ms="439" started-at="2023-08-03T12:42:48 IST" finished-at="2023-08-03T12:42:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getYearCircuitTest -->
+      </class> <!-- com.qa.api.tests.CiruitTest -->
+    </test> <!-- Circuit Test -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>
