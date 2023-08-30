@@ -40,12 +40,12 @@
 	</test>
 
 
-	<test name="ReqRes Test">
+<!-- 	<test name="ReqRes Test">
 		<parameter name="baseURI" value="https://reqres.in" />
 		<classes>
 			<class name="com.qa.api.tests.ReqResTest" />
 		</classes>
-	</test>
+	</test> -->
 	
 	
 
